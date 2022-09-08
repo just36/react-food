@@ -25,7 +25,7 @@ const Search = ({ cb = Function.prototype }) => {
           value={value}
         />
         <button
-          className="btn"
+          className="btn deep-purple lighten-2"
           style={{ position: 'absolute', top: 0, right: '10px' }}
           onClick={handleSubmit}
         >
